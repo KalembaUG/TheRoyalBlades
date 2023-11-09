@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/static/css/main.fcb0bfc3.css",
+    "main.js": "/static/js/main.f10f900d.js",
+    "static/media/royalblades-billboard.jpg": "/static/media/royalblades-billboard.402196c7f4d2499adb80.jpg",
+    "static/media/Characters.png": "/static/media/Characters.404ba2c3cd48032d6540.png",
+    "static/media/Quantum_Edge.jpg": "/static/media/Quantum_Edge.c9cd5e604f6fabb8bb53.jpg",
+    "static/media/Byakko_no_Kin__Golden_White_Tiger_.jpg": "/static/media/Byakko_no_Kin__Golden_White_Tiger_.345447b17de3954ae8b3.jpg",
+    "static/media/Deathslicer (1).jpg": "/static/media/Deathslicer (1).894ee958f4e34f80b1af.jpg",
+    "static/media/Deathslicer.jpg": "/static/media/Deathslicer.894ee958f4e34f80b1af.jpg",
+    "static/media/Ogonbuji.jpg": "/static/media/Ogonbuji.73eacd8184aaac726ea3.jpg",
+    "static/media/Skull_Splitter.jpg": "/static/media/Skull_Splitter.e4592434a5c39af1c464.jpg",
+    "static/media/Deaths_Bite.jpg": "/static/media/Deaths_Bite.253b66f8b6a14ab6fce8.jpg",
+    "static/media/Venomfang.jpg": "/static/media/Venomfang.e975f5f5cfbca4abefcf.jpg",
+    "static/media/Doomslicer.jpg": "/static/media/Doomslicer.1d7a42829ae216879af8.jpg",
+    "static/media/Razorwind.jpg": "/static/media/Razorwind.5e7a9641a1d99673d93d.jpg",
+    "static/media/Venomstrike.jpg": "/static/media/Venomstrike.40200b234583790f1c08.jpg",
+    "static/media/Ravenshadow.jpg": "/static/media/Ravenshadow.a0892b54e425ad4cd855.jpg",
+    "static/media/royal-blades-play-to-earn.png": "/static/media/royal-blades-play-to-earn.ca43c00fcf7db288d2c0.png",
+    "static/media/AGARAMONDPRO-REGULAR.OTF": "/static/media/AGARAMONDPRO-REGULAR.c8361307433066597deb.OTF",
+    "static/media/AGARAMONDPRO-BOLD.OTF": "/static/media/AGARAMONDPRO-BOLD.39f7ef0333571cbe699b.OTF",
+    "static/media/line.png": "/static/media/line.3a6a07c6db5f75eeb158.png",
+    "static/media/line-2.png": "/static/media/line-2.29fa29de3b8bae0fc066.png",
+    "static/media/map.png": "/static/media/map.99c04146b47266b4d000.png",
+    "static/media/bg-banner.png": "/static/media/bg-banner.e72e3f48954cea4f1547.png",
+    "static/media/logo-footer.png": "/static/media/logo-footer.9289daa6d72b4013fe2b.png",
+    "static/media/icon-3.svg": "/static/media/icon-3.b42043b99b26a1f24f4f9dce69b8e668.svg",
+    "static/media/icon-4.svg": "/static/media/icon-4.d14354eb7e60d2f3c8ea5cd46c8c5bdc.svg",
+    "static/media/icon-2.svg": "/static/media/icon-2.cb15d25a89e3172a92bc4b97f9991c1b.svg",
+    "static/media/icon-1.svg": "/static/media/icon-1.d26c4f968292fae1d008ac69acad1c7f.svg",
+    "index.html": "/index.html",
+    "main.fcb0bfc3.css.map": "/static/css/main.fcb0bfc3.css.map",
+    "main.f10f900d.js.map": "/static/js/main.f10f900d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fcb0bfc3.css",
+    "static/js/main.f10f900d.js"
+  ]
+}

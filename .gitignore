@@ -9,10 +9,8 @@
 /coverage
 
 # production
-#/build
-/src
-/public
-.vscode
+/build
+
 # misc
 .DS_Store
 .env.local

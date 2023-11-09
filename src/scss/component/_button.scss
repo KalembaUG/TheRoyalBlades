@@ -1,0 +1,260 @@
+@use '../abstracts/' as *;
+
+
+// Button background
+.action-btn  ,.polygon{
+    
+    position: relative;
+    overflow: hidden;
+    font-weight: 700;
+    background: linear-gradient(89.96deg, rgba(255, 255, 255, 0.051) 0.03%, #ffffff02 49.67%, rgba(255, 36, 36, 0.051) 99.96%);
+    backdrop-filter: blur(4px);
+    padding: 5px;
+    border-radius: 10px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: flex-start;
+
+    border: 1px solid rgba(255, 255, 255, 0.1);
+
+    // Button
+    span {
+        background: linear-gradient(264.28deg, #25040A -38.2%, 160708 103.12%);
+        padding: 10px 20px;
+        border-radius: 10px;
+        color: #fff;
+
+        transition: all 0.3s ease-in-out;
+        position: relative;
+        overflow: hidden;
+
+        &::after {
+            background: linear-gradient(90deg, rgba(255, 255, 255, 0.13) 0px, rgba(255, 255, 255, 0.13) 77%, rgba(255, 255, 255, 0.5) 92%, rgba(255, 255, 255, 0));
+            content: "";
+            height: 200%;
+            left: -210%;
+            opacity: 0;
+            position: absolute;
+            top: -50%;
+            transition: all 0.7s ease 0s;
+            width: 200%;
+        }
+    }
+
+
+    &:hover {
+        span {
+            &::after {
+                left: -30%;
+                opacity: 1;
+                top: -20%;
+                transition-duration: 0.7s, 0.7s, 0.15s;
+                transition-property: left, top, opacity;
+                transition-timing-function: linear;
+            }
+        }
+    }
+
+}
+
+.action-btn.s1 {
+    span {
+        background: linear-gradient(264.28deg, rgba(255, 255, 255, 0) -38.2%, rgba(255, 255, 255, 0.1) 103.12%);
+    }
+}
+
+.action-btn.using-key-chain{
+    background-color: white;
+    color: black;
+}
+
+#scroll-top {
+    position             : fixed;
+    display              : block;
+    width                : 50px;
+    height               : 50px;
+    line-height          : 50px;
+    border-radius        : 4px;
+    text-align           : center;
+    z-index              : 999;
+    right                : 14px;
+    bottom               : 23px;
+    border-radius        : 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius   : 50%;
+    -ms-border-radius    : 50%;
+    -o-border-radius     : 50%;
+    cursor               : pointer;
+    overflow             : hidden;
+    background: linear-gradient(264.28deg, #25040A -38.2%, #160708 103.12%);
+
+    @include flex(center ,center);
+
+
+    span {
+        transform: rotate(-180deg);
+        display: block;
+        font-size: 12px;
+    }
+}
+
+
+.polygon{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    display:inline-flex;
+    align-content: space-between;
+    padding: 10px;
+    div{
+        display: inline;
+    }
+}
+
+
+@media only screen and (max-width: 600px ) {
+    .polygon {
+        margin-left: 0%;
+        margin-right: 0%;
+        width: 93.5%;
+     div  {
+
+        width: 100%;
+    }
+    }
+    .polygon-text, .hive-text{
+
+         font-size: larger;
+    
+    }
+}
+
+
+@media only screen and (min-width: 992px ) {
+    .polygon {
+        margin-left: 0%;
+        margin-right: 0%;
+        width: 45%;
+     div  {
+
+        width: 100%;
+    }
+    }
+    .polygon-text, .hive-text{
+
+        // font-size: larger;
+    }
+}
+@media only screen and (min-width: 1200px ) {
+    .polygon {
+        margin-left: 0%;
+        margin-right: 0%;
+        width: 91%;
+     div  {
+
+        width: 100%;
+    }
+    }
+    .polygon-text, .hive-text{
+        margin-left: 15%;
+        // font-size: larger;
+    }
+}
+
+
+
+.polygon-div{
+    background-color: white;
+            padding: 10px 20px;
+        border-radius: 10px;
+
+           span {
+        background: linear-gradient(264.28deg, rgb(66, 115, 170) -38.2%, rgb(32, 39, 50) 103.12%);
+        padding: 10px 20px;
+        border-radius: 10px;
+        color: #fff;
+
+        transition: all 0.3s ease-in-out;
+        position: relative;
+        overflow: hidden;
+
+        &::after {
+            background: linear-gradient(90deg, rgba(255, 255, 255, 0.13) 0px, rgba(255, 255, 255, 0.13) 77%, rgba(255, 255, 255, 0.5) 92%, rgba(255, 255, 255, 0));
+            content: "";
+            height: 200%;
+            left: -210%;
+            opacity: 0;
+            position: absolute;
+            top: -50%;
+            transition: all 0.7s ease 0s;
+            width: 200%;
+        }
+    }
+}
+
+.hive-div{
+
+    background-color: black;
+            padding: 10px 20px;
+        border-radius: 10px;
+
+}
+
+
+#scroll-top:hover {
+    transform: translateY(-7%);
+}
+.hive-text{
+    color:red;
+    height: 30px;
+    padding-left: 30px;
+}
+.polygon-text{
+    height: 30px;
+    color:black;
+    padding-left: 20px;
+}
+
+.logo-button{
+    height: 40px;
+}
+
+.join-now{
+    background: linear-gradient(264.28deg, rgba(169, 61, 3, 0.169) -38.2%,rgba(185,68,5,0.1), rgba(193, 92, 38,0.5) 103.12%);
+    span{
+        background: linear-gradient(264.28deg, rgb(169, 61, 3) -38.2%,rgb(185,68,5), rgb(193, 92, 38) 103.12%);
+    }
+}
+
+.play-discord-game{
+    
+    background: linear-gradient(264.28deg, rgb(43, 61, 156,0.5) -38.2%, rgb(43, 61, 156,0.5) 103.12%);
+    span{
+        background: linear-gradient(264.28deg, rgb(43, 61, 156) -38.2%, rgb(43, 61, 156) 103.12%);
+    }
+}
+
+.keychain{
+  padding-left: 30px;
+   
+    span{
+
+        margin: 0%;
+        background-image: url("../../assets/images/background/Hivebutton.png");
+        background-size: cover;
+        align-content: end;
+        padding: 20px;
+        background-repeat: no-repeat;
+        padding-left: 70px;
+        padding-right: 20px;
+        margin-right: 10px;
+        margin: -10;
+    }
+}
+.nft-market{
+  
+    span{
+        color :black;
+        background: linear-gradient(264.28deg, #C88100 , #FEA808 );
+    }
+}

@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/TheRoyalBlades/static/css/main.fbb1f030.css",
+    "main.css": "/TheRoyalBlades/static/css/main.7f1461a0.css",
     "main.js": "/TheRoyalBlades/static/js/main.cf500e4c.js",
     "static/media/royalblades-billboard.jpg": "/TheRoyalBlades/static/media/royalblades-billboard.402196c7f4d2499adb80.jpg",
     "static/media/Characters.png": "/TheRoyalBlades/static/media/Characters.404ba2c3cd48032d6540.png",
@@ -29,11 +29,11 @@
     "static/media/icon-2.svg": "/TheRoyalBlades/static/media/icon-2.cb15d25a89e3172a92bc4b97f9991c1b.svg",
     "static/media/icon-1.svg": "/TheRoyalBlades/static/media/icon-1.d26c4f968292fae1d008ac69acad1c7f.svg",
     "index.html": "/TheRoyalBlades/index.html",
-    "main.fbb1f030.css.map": "/TheRoyalBlades/static/css/main.fbb1f030.css.map",
+    "main.7f1461a0.css.map": "/TheRoyalBlades/static/css/main.7f1461a0.css.map",
     "main.cf500e4c.js.map": "/TheRoyalBlades/static/js/main.cf500e4c.js.map"
   },
   "entrypoints": [
-    "static/css/main.fbb1f030.css",
+    "static/css/main.7f1461a0.css",
     "static/js/main.cf500e4c.js"
   ]
 }
